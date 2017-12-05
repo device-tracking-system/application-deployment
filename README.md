@@ -22,7 +22,7 @@ http://localhost:8888
 ```
 http://localhost:8080/eureka
 ```
-     while the service discovery dashboard is running on:
+while the service discovery dashboard is running on:
 ```
 http://localhost:8080
 ```
