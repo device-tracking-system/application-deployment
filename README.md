@@ -42,3 +42,18 @@ http://localhost:8081
 http://localhost (default HTTP 80 port)
 ```
 
+## Deployment
+This project is deployed to a cloud infrastructure hosted by the Google Cloud Platform. In order to deploy a new 
+version of the platform, follow these steps:
+  1. Build Docker images for all the microservices as defined in appropriate repositories.
+  2. Deploy the images to the Docker Hub by typing:
+```
+docker login --username [Your username in Docker Hub] --password [Your password to Docker Hub]
+docker tag [image name] [image tag]
+docker push [Your username in Docker Hub]/[repository name]
+```
+where `[image tag]` is given by `[Your username in Docker Hub]/[repository name]`.
+  3. Log in to the Google Cloud Platform account.
+  4. Download latest versions of images from the Docker Hub and run them in containers as defined in appropriate
+  repositories.
+
