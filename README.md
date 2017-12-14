@@ -9,6 +9,8 @@ their routes on a map. The whole system is composed of the following components:
 You need to have the following tools installed and configured:
   - Java SE 1.8+
   - Maven 3.0+
+  - MongoDB 3.0+
+  - RabbitMQ Server 3.0+
 
 ## Project setup for local development
 In order to set up the whole infranstructure locally, follow these steps:
@@ -53,7 +55,8 @@ docker tag [image name] [image tag]
 docker push [Your username in Docker Hub]/[repository name]
 ```
 where `[image tag]` is given by `[Your username in Docker Hub]/[repository name]`.
+
   3. Log in to the Google Cloud Platform account.
   4. Download latest versions of images from the Docker Hub and run them in containers as defined in appropriate
-  repositories.
+  repositories. When setting up the infrastructure, follow instructions presented in the previous section.
 
