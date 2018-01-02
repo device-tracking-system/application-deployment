@@ -12,6 +12,9 @@ You need to have the following tools installed and configured:
   - MongoDB 3.0+
   - RabbitMQ Server 3.0+
 
+## Architecture Overview
+![Architecture Overview](https://www.dropbox.com/s/6mzsj7d6l33a6ya/Microservices%20Architecture.jpg?dl=0)
+
 ## Project setup for local development
 In order to set up the whole infranstructure locally, follow these steps:
   1. Run the [Configuration Server](https://github.com/device-tracking-system/configuration-server). After successful
