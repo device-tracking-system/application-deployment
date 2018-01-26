@@ -13,7 +13,7 @@ You need to have the following tools installed and configured:
   - RabbitMQ Server 3.0+
 
 ## Architecture Overview
-![Architecture Overview](https://lh5.googleusercontent.com/alDXk75dCQZM8GS3ef-eFVDsDClti4qx1QpP86uYv-KHeO1KJUipUodKhIRBJw4zK_n2BNS15WgoNQ=w1366-h662-rw)
+![Architecture Overview](https://raw.githubusercontent.com/device-tracking-system/application-deployment/master/docs/architecture.png)
 
 ## Project setup for local development
 In order to set up the whole infranstructure locally, follow these steps:
