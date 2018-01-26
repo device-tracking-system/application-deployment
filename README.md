@@ -31,11 +31,8 @@ while the service discovery dashboard is running on:
 ```
 http://localhost:8080
 ```
-  3. Run the [Processing Service](https://github.com/device-tracking-system/processing-service). After successful
-     installation, this microservice is running on:
-```
-http://localhost:8082
-```
+  3. Run the [Processing Service](https://github.com/device-tracking-system/processing-service). This microservice
+     do not expose antyhing to the Web.
   4. Run the [UI Service](https://github.com/device-tracking-system/ui-service). After successful installation,
      the microservice hosting the web application is running on:
 ```
